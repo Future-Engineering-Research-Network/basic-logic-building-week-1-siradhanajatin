@@ -8,9 +8,15 @@ Rules:
 4. Best 3 creative problems get bonus points!
 
 EXAMPLE (DELETE THIS AND WRITE YOURS):
-Problem: Check if a number is "happy" by repeatedly 
-replacing it with sum of squares of its digits
-until it becomes 1 (happy) or loops endlessly (sad)
+Problem: Reverse Integer. If the integer is negative then the negative of reverse of it's absolute value is the answer 
 
 Write your original problem + solution below:
 """
+
+def reverse_integer(n):
+    res=0
+    if n<0:
+        res = int(str(n)[1:][::-1]) * -1
+    else:
+        res = int(str(n)[::-1])
+    return res
