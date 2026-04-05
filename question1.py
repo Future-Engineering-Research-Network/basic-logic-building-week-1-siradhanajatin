@@ -13,7 +13,8 @@ def length_of_list(lst):
     return count
 
 def add_in_list(lst, n):
-    lst[length_of_list(lst)+1]=n
+    new_list = lst+[n]
+    lst[:]=new_list
 
 def insert_in_list(lst, pos, n):
     new_list=lst+[0]

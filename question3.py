@@ -7,7 +7,6 @@ Rules:
 3. Include clear problem statement + sample I/O
 4. Best 3 creative problems get bonus points!
 
-EXAMPLE (DELETE THIS AND WRITE YOURS):
 Problem: Reverse Integer. If the integer is negative then the negative of reverse of it's absolute value is the answer 
 
 Write your original problem + solution below:
